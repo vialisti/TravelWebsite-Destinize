@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<link
+			href="/dist/output.css"
+			rel="stylesheet"
+		/>
+		<title>Destinize - Challenge</title>
+	</head>
+	<body>
+		<!-- Header -->
+		<div class="container header flex items-center justify-center my-3 w-full gap-x-4">
+			<div class="head-layout w-[20%]">
+				<img
+					src="/assets/logo-icon.svg"
+					alt=""
+				/>
+				<h1 class="leading-[23px] font-bold text-lg">Destinize</h1>
+			</div>
+
+			<!-- search -->
+			<div class="w-[40%]">
+				<label
+					for="default-search"
+					class="mb-2 text-sm font-medium text-gray-900 sr-only"
+					>Search</label
+				>
+				<div class="relative w-full">
+					<div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+						<img
+							src="/assets/icons/search.svg"
+							alt=""
+						/>
+					</div>
+					<input
+						type="search"
+						id="default-search"
+						class="w-full p-4 pl-10 text-sm text-textColor-smallText border bg-[#F0F1F2] border-none rounded-[30px]"
+						placeholder="Cari apapun disini..."
+					/>
+				</div>
+			</div>
+			<button class="head-layout w-[15%] text-textColor-smallText">
+				<img
+					src="/assets/icons/earth.svg"
+					alt=""
+					width="20"
+					height="20"
+				/>
+				<h1 class="text-[14px]">Bahasa indonesia</h1>
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					fill="#9A9EA6"
+					viewBox="0 0 24 24"
+					stroke-width="2"
+					stroke="currentColor"
+					class="w-4 h-4"
+				>
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+					/>
+				</svg>
+			</button>
+
+			<div class="head-layout w-[25%]">
+				<img
+					src="/assets/icons/loc-head.svg"
+					alt=""
+				/>
+				<div>
+					<p class="text-textColor-smallText text-[12px]">Lokasi</p>
+					<button class="text-primary text-[16px] font-[700] flex items-center">
+						Indonesia, Yogyakarta
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							fill="#4475F2"
+							viewBox="0 0 24 24"
+							stroke-width="2"
+							stroke="currentColor"
+							class="w-4 h-4 mt-1 ml-1"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+							/>
+						</svg>
+					</button>
+				</div>
+			</div>
+		</div>
+		<hr class="my-4 h-[1px] border-t-0 bg-[#DFDFE0]" />
+		<div class="container flex justify-between items-center">
+			<ul class="flex gap-10">
+				<li>
+					<button class="flex items-center text-textColor-smallText text-14px">
+						Gunung
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke-width="2"
+							stroke="currentColor"
+							class="w-4 h-4 mt-1 ml-1.5"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+							/>
+						</svg>
+					</button>
+				</li>
+				<li>
+					<button class="flex items-center text-textColor-smallText text-14px">
+						Pantai
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke-width="2"
+							stroke="currentColor"
+							class="w-4 h-4 mt-1 ml-1.5"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+							/>
+						</svg>
+					</button>
+				</li>
+				<li>
+					<button class="flex items-center text-textColor-smallText text-14px">
+						Kuliner
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke-width="2"
+							stroke="currentColor"
+							class="w-4 h-4 mt-1 ml-1.5"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+							/>
+						</svg>
+					</button>
+				</li>
+				<li>
+					<button class="flex items-center text-textColor-smallText text-14px">
+						Outbond
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke-width="2"
+							stroke="currentColor"
+							class="w-4 h-4 mt-1 ml-1.5"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+							/>
+						</svg>
+					</button>
+				</li>
+				<li>
+					<button class="flex items-center text-textColor-smallText text-14px">
+						Sejarah
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke-width="2"
+							stroke="currentColor"
+							class="w-4 h-4 mt-1 ml-1.5"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+							/>
+						</svg>
+					</button>
+				</li>
+				<li>
+					<button class="flex items-center text-textColor-smallText text-14px">
+						Edukasi
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke-width="2"
+							stroke="currentColor"
+							class="w-4 h-4 mt-1 ml-1.5"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+							/>
+						</svg>
+					</button>
+				</li>
+				<li>
+					<button class="flex items-center text-textColor-smallText text-14px">
+						Romantis
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke-width="2"
+							stroke="currentColor"
+							class="w-4 h-4 mt-1 ml-1.5"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+							/>
+						</svg>
+					</button>
+				</li>
+				<li>
+					<button class="flex items-center text-textColor-smallText text-14px">
+						Alam
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke-width="2"
+							stroke="currentColor"
+							class="w-4 h-4 mt-1 ml-1.5"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+							/>
+						</svg>
+					</button>
+				</li>
+			</ul>
+			<div class="flex gap-x-3">
+				<button class="rounded-full bg-primary p-5">
+					<img
+						src="/assets/icons/bag.svg"
+						alt=""
+						srcset=""
+					/>
+				</button>
+				<button class="rounded-full bg-[#E3EBFD] p-5">
+					<img
+						src="/assets/icons/user.svg"
+						alt=""
+						srcset=""
+					/>
+				</button>
+			</div>
+		</div>
+		<div class="hero container w-full flex py-12">
+			<div class="w-1/2 flex flex-col gap-y-3">
+				<div class="flex items-center justify-between">
+					<h6 class="text-primary bg-[#E6EDFF] px-4 py-2 text-[14px] font-bold leading-[20px] rounded-full">✈ • Explore the wonderful indonesia!</h6>
+				</div>
+				<h1 class="font-[800] text-textColor-hero text-[75px]">
+					Liburan & nikmati
+					<div class="text-primary">tempat baru</div>
+					di indonesia ️🏝
+				</h1>
+				<p class="text-textColor-paragraph font-[500] leading-[30px] w-[85%]">
+					Destinize membuat kamu selalu update terkait tempat liburan baru di Indonesia dengan mengikuti perkembangan para influencer di sosial media ✨
+				</p>
+
+				<div class="flex gap-x-16">
+					<button class="bg-primary px-8 py-4 rounded-lg text-white font-bold shadow-heroButton">Mulai sekarang →</button>
+					<div class="flex items-center gap-x-2">
+						<button class="border border-primary rounded-full text-primary p-4 shadow-heroButton">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								fill="#4475F2"
+								viewBox="0 0 24 24"
+								stroke-width="1.5"
+								stroke="currentColor"
+								class="w-6 h-6"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z"
+								/>
+							</svg>
+						</button>
+						<p class="text-[#686D77] font-bold text-[17px]">Putar Demo</p>
+					</div>
+				</div>
+			</div>
+			<div class="w-1/2">
+				<img
+					src="/assets/Hero.svg"
+					alt=""
+				/>
+			</div>
+		</div>
+
+		<!-- Main -->
+		<main class="container">
+			<!-- Partner Logo -->
+			<div class="flex justify-between items-center mb-[115px]">
+				<img
+					src="/assets/partner-1.svg"
+					alt=""
+					class="grayscale hover:grayscale-0"
+				/>
+				<img
+					src="/assets/partner-2.svg"
+					alt=""
+					class="grayscale hover:grayscale-0"
+				/>
+				<img
+					src="/assets/partner-3.svg"
+					alt=""
+					class="grayscale hover:grayscale-0"
+				/>
+				<img
+					src="/assets/partner-4.svg"
+					alt=""
+					class="grayscale hover:grayscale-0"
+				/>
+				<img
+					src="/assets/partner-5.svg"
+					alt=""
+					class="grayscale hover:grayscale-0"
+				/>
+			</div>
+
+			<!-- Temukan Destinasi -->
+			<div class="flex justify-between items-center mb-30">
+				<h2 class="font-[800] text-textColor-hero text-[48px]">
+					<div class="text-primary tracking-[0.095em] text-[18px] mb-3">DESTINASI FAVORIT</div>
+					✈ • Temukan Destinasi Favoritmu
+				</h2>
+				<button class="text-primary font-bold text-[17px] flex items-center">
+					Lihat Semua
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke-width="3"
+						stroke="currentColor"
+						class="w-4 h-4 ml-2"
+					>
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							d="M8.25 4.5l7.5 7.5-7.5 7.5"
+						/>
+					</svg>
+				</button>
+			</div>
+			<div class="flex justify-between w-full mt-10 mb-[115px]">
+				<!-- Card -->
+				<div class="relative w-[285px] h-[395px] shadow-galeri">
+					<img
+						src="/assets/dest-1.svg"
+						alt=""
+						class="object-cover object-left-bottom w-[285px] h-[395px] rounded-lg"
+					/>
+					<div class="absolute bg-white/70 px-5 py-5 w-[150px] bottom-0 left-0 backdrop-blur-sm rounded-bl-lg rounded-tr-lg">
+						<h6 class="font-semibold text-[17px] text-textColor-cardTitle">Raja Ampat</h6>
+						<p class="font-semibold text-[17px] text-textColor-paragraph">Bali</p>
+					</div>
+				</div>
+				<!-- Card -->
+				<div class="relative w-[285px] h-[395px] shadow-galeri">
+					<img
+						src="/assets/dest-2.svg"
+						alt=""
+						class="object-cover object-left-bottom w-[285px] h-[395px] rounded-lg"
+					/>
+					<div class="absolute bg-white/70 px-5 py-5 w-[150px] bottom-0 left-0 backdrop-blur-sm rounded-bl-lg rounded-tr-lg">
+						<h6 class="font-semibold text-[17px] text-textColor-cardTitle">Labuan Bajo</h6>
+						<p class="font-semibold text-[17px] text-textColor-paragraph">Ntt</p>
+					</div>
+				</div>
+				<!-- Card -->
+				<div class="relative w-[285px] h-[395px] shadow-galeri">
+					<img
+						src="/assets/dest-3.svg"
+						alt=""
+						class="object-cover object-left-bottom w-[285px] h-[395px] rounded-lg"
+					/>
+					<div class="absolute bg-white/70 px-5 py-5 w-[150px] bottom-0 left-0 backdrop-blur-sm rounded-bl-lg rounded-tr-lg">
+						<h6 class="font-semibold text-[17px] text-textColor-cardTitle">Kawah Injen</h6>
+						<p class="font-semibold text-[17px] text-textColor-paragraph">Jawa Timur</p>
+					</div>
+				</div>
+				<!-- Card -->
+				<div class="relative w-[285px] h-[395px] shadow-galeri">
+					<img
+						src="/assets/dest-4.svg"
+						alt=""
+						class="object-cover object-left-bottom w-[285px] h-[395px] rounded-lg"
+					/>
+					<div class="absolute bg-white/70 px-5 py-5 w-[150px] bottom-0 left-0 backdrop-blur-sm rounded-bl-lg rounded-tr-lg">
+						<h6 class="font-semibold text-[17px] text-textColor-cardTitle">Bromo</h6>
+						<p class="font-semibold text-[17px] text-textColor-paragraph">Jawa Timur</p>
+					</div>
+				</div>
+			</div>
+		</main>
+		<!-- Footer -->
+		<footer></footer>
+	</body>
+</html>
