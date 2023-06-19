@@ -21,7 +21,7 @@
 ## 🚀 Installation
 - Clone the repository:
 ```bash
-git clone
+git clone https://github.com/vialisti/TravelWebsite-Destinize.git
 ```
 - Install the dependencies:
 open [Tailwind Docs](https://tailwindcss.com/docs/installation)
