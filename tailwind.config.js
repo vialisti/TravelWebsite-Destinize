@@ -14,7 +14,7 @@ module.exports = {
 					hero: '#181E4B',
 					paragraph: '#5E6282',
 					smallText: '#9A9EA6',
-          cardTitle: '#042521',
+					cardTitle: '#042521',
 				},
 			},
 			boxShadow: {

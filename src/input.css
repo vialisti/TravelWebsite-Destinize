@@ -11,4 +11,10 @@
   .container{
     @apply max-w-screen-xl mx-auto
   }
+  .headline{
+    @apply font-[800] text-textColor-hero text-[48px]
+  }
+  .sub-headline{
+    @apply font-[800] text-primary tracking-[0.095em] text-[18px] mb-3
+  }
 }

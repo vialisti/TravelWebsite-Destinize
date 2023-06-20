@@ -14,7 +14,7 @@
 	</head>
 	<body>
 		<!-- Header -->
-		<div class="container header flex items-center justify-center my-3 w-full gap-x-4">
+		<div class="container header flex items-center justify-between my-3 w-full gap-x-4">
 			<div class="head-layout w-[20%]">
 				<img
 					src="/assets/logo-icon.svg"
@@ -69,7 +69,7 @@
 				</svg>
 			</button>
 
-			<div class="head-layout w-[25%]">
+			<div class="head-layout">
 				<img
 					src="/assets/icons/loc-head.svg"
 					alt=""
@@ -347,8 +347,8 @@
 
 			<!-- Temukan Destinasi -->
 			<div class="flex justify-between items-center mb-30">
-				<h2 class="font-[800] text-textColor-hero text-[48px]">
-					<div class="text-primary tracking-[0.095em] text-[18px] mb-3">DESTINASI FAVORIT</div>
+				<h2 class="headline">
+					<div class="sub-headline">DESTINASI FAVORIT</div>
 					✈ • Temukan Destinasi Favoritmu
 				</h2>
 				<button class="text-primary font-bold text-[17px] flex items-center">
@@ -423,8 +423,8 @@
 			<!-- Reservasi -->
 			<div class="flex items-center gap-x-28 mb-[115px]">
 				<div class="w-1/2">
-					<h6 class="text-primary tracking-[0.095em] text-[18px] mb-3 font-[800]">RESERVASI TEMPAT</h6>
-					<h2 class="font-[800] text-textColor-hero text-[48px] mb-10">Gak mau ngantri? reservasi aja! 🤙🏻</h2>
+					<h6 class="sub-headline">RESERVASI TEMPAT</h6>
+					<h2 class="headline mb-10">Gak mau ngantri? reservasi aja! 🤙🏻</h2>
 					<div class="flex items-center gap-x-4 mb-[30px]">
 						<div class="icon bg-[#EFE0B4] rounded-2xl text-[24px] p-4">🔎</div>
 						<div class="text-textColor-paragraph">
@@ -448,9 +448,7 @@
 					</div>
 				</div>
 				<div class="w-1/2 relative">
-					<div class="absolute bottom-[100px] left-28 w-[380px] h-[380px] rounded-full bg-primary/60 blur-[75px] -z-10">
-
-					</div>
+					<div class="absolute bottom-[100px] left-28 w-[380px] h-[380px] rounded-full bg-primary/60 blur-[75px] -z-10"></div>
 					<div class="shadow-galeri w-[400px] h-auto bg-white rounded-3xl p-7">
 						<img
 							src="/assets/bali.jpg"
@@ -522,16 +520,226 @@
 							<div class="statusbar">
 								<div class="w-full bg-gray-200 rounded-full h-2 mt-3">
 									<div
-										class="bg-primary h-2 rounded-full"
-										style="width: 45%"
+										class="bg-primary h-2 rounded-full w-[45%]"
+										style=""
 									></div>
 								</div>
 							</div>
 						</div>
 					</div>
-
 				</div>
 			</div>
+
+			<!-- Map Wisata -->
+			<div class="text-center mb-32">
+				<p class="sub-headline">CARI TEMPAT WISATA</p>
+				<h2 class="headline mb-5">🗺 • Cari Tempat Wisata Didekatmu</h2>
+				<p class="text-lg mb-10">
+					Fitur ini memungkinkan kamu untuk mencari tempat wisata atau tempat yang sedang populer di daerah kamu dengan begitu kamu akan selalu update dan gak kudet
+					lagi 👍🏻
+				</p>
+
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15869514.886478122!2d106.61329409720412!3d-1.7667490544186284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2c4c07d7496404b7%3A0xe37b4de71badf485!2sIndonesia!5e0!3m2!1sen!2sid!4v1687259362213!5m2!1sen!2sid"
+					width="100%"
+					height="450"
+					style="border: 0"
+					allowfullscreen=""
+					loading="lazy"
+					referrerpolicy="no-referrer-when-downgrade"
+				></iframe>
+
+				<div class="flex justify-between my-7">
+					<div class="flex gap-x-5 p-2">
+						<div class="self-start rounded-full bg-[#EFF2F6] p-5">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 24 24"
+								fill="#323232"
+								class="w-6 h-6"
+							>
+								<path
+									fill-rule="evenodd"
+									d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 00-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 002.682 2.282 16.975 16.975 0 001.145.742zM12 13.5a3 3 0 100-6 3 3 0 000 6z"
+									clip-rule="evenodd"
+								/>
+							</svg>
+						</div>
+						<div class="text-left">
+							<p class="text-textColor-headline font-extrabold text-2xl">Populer di dekatmu</p>
+							<p class="font-medium text-lg text-[#3E4462] w-[300px]">Tempat pariwisata yang populer dan pasti dikenal semua orang didekatmu</p>
+						</div>
+					</div>
+					<div class="flex gap-x-5 p-2">
+						<div class="self-start rounded-full bg-[#EFF2F6] p-5">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 24 24"
+								fill="currentColor"
+								class="w-6 h-6"
+							>
+								<path
+									d="M11.645 20.91l-.007-.003-.022-.012a15.247 15.247 0 01-.383-.218 25.18 25.18 0 01-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0112 5.052 5.5 5.5 0 0116.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 01-4.244 3.17 15.247 15.247 0 01-.383.219l-.022.012-.007.004-.003.001a.752.752 0 01-.704 0l-.003-.001z"
+								/>
+							</svg>
+						</div>
+						<div class="text-left">
+							<p class="text-textColor-headline font-extrabold text-2xl">Favorit di dekatmu</p>
+							<p class="font-medium text-lg text-[#3E4462] w-[300px]">Tempat favorit dan disukai semua orang orang di sekitar daerah kamu</p>
+						</div>
+					</div>
+					<div class="flex gap-x-5 p-2">
+						<div class="self-start rounded-full bg-[#EFF2F6] p-5">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 24 24"
+								fill="currentColor"
+								class="w-6 h-6"
+							>
+								<path
+									fill-rule="evenodd"
+									d="M8.25 6.75a3.75 3.75 0 117.5 0 3.75 3.75 0 01-7.5 0zM15.75 9.75a3 3 0 116 0 3 3 0 01-6 0zM2.25 9.75a3 3 0 116 0 3 3 0 01-6 0zM6.31 15.117A6.745 6.745 0 0112 12a6.745 6.745 0 016.709 7.498.75.75 0 01-.372.568A12.696 12.696 0 0112 21.75c-2.305 0-4.47-.612-6.337-1.684a.75.75 0 01-.372-.568 6.787 6.787 0 011.019-4.38z"
+									clip-rule="evenodd"
+								/>
+								<path
+									d="M5.082 14.254a8.287 8.287 0 00-1.308 5.135 9.687 9.687 0 01-1.764-.44l-.115-.04a.563.563 0 01-.373-.487l-.01-.121a3.75 3.75 0 013.57-4.047zM20.226 19.389a8.287 8.287 0 00-1.308-5.135 3.75 3.75 0 013.57 4.047l-.01.121a.563.563 0 01-.373.486l-.115.04c-.567.2-1.156.349-1.764.441z"
+								/>
+							</svg>
+						</div>
+						<div class="text-left">
+							<p class="text-textColor-headline font-extrabold text-2xl">Ramai di didekatmu</p>
+							<p class="font-medium text-lg text-[#3E4462] w-[300px]">Spot yang paling ramai dikunjungi para warga sekaligus para wisatawan</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Features -->
+			<div class="flex justify-between items-center">
+				<h2 class="headline">
+					<div class="sub-headline">MENGENAL DESTINIZE</div>
+					🖼• Galeri Pariwisata & Blog Travel
+				</h2>
+				<button class="text-primary font-bold text-[17px] flex items-center">
+					Lihat Semua
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke-width="3"
+						stroke="currentColor"
+						class="w-4 h-4 ml-2"
+					>
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							d="M8.25 4.5l7.5 7.5-7.5 7.5"
+						/>
+					</svg>
+				</button>
+			</div>
+			<div class="flex justify-between gap-x-8 my-12">
+				<div class="w-1/4 bg-white rounded-lg shadow-galeri">
+					<div class="">
+						<img
+							src="/assets/dest-4.svg"
+							alt=""
+							class="object-cover object-center w-full h-[200px] rounded-t-lg"
+						/>
+						<div class="p-8 flex flex-col gap-y-4">
+							<p class="text-textColor-smallText text-sm font-semibold">26 DESEMBER 2021</p>
+							<p class="title font-bold">Tips naik gunung Bromo Biar gak capek cyin 😥😛</p>
+							<p class="text-[#737373] text-sm font-semibold">Jadi gini gann, anda tau bromo? yaaa gunung kann!</p>
+							<p class="text-sm font-bold text-primary">Baca selengkapnya ...</p>
+						</div>
+					</div>
+				</div>
+				<div class="relative w-3/4 rounded-lg overflow-hidden">
+					<img
+						src="/assets/video.jpg"
+						alt="thumb"
+						class="object-fill w-full"
+					/>
+					<div class="absolute inset-0 bg-[linear-gradient(180deg,rgba(0,0,0,0)14.58%,rgba(56,56,56,0.84)100%)]"></div>
+					<button class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full bg-primary text-white p-10 z-10">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							viewbox="0 0 24 24"
+							fill="currentColor"
+							class="w-8 h-8"
+						>
+							<path
+								fillrule="evenodd"
+								d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z"
+								cliprule="evenodd"
+							/>
+						</svg>
+					</button>
+				</div>
+			</div>
+
+			<div
+				class="w-full bg-[url('/assets/2.jpg'),linear-gradient(180deg,rgba(0,0,0,0.15)0%,rgba(56,56,56,0.84)100%)] bg-no-repeat bg-cover p-10 text-white rounded-lg"
+			>
+				<div class="w-1/2">
+					<h6 class="text-2xl font-extrabold mb-7">Tips meminum air kawah biar lidah melepuh 😁</h6>
+					<p class="font-semibold">Lidah melepuh? why nott, kawah bukan untuk dilihat kawan.. tapi untuk di minum.. rasakan kepanasan yang brutal 🔥</p>
+					<div class="flex gap-x-5 my-5">
+						<p>Google</p>
+						<p>Trending</p>
+						<p>Baru</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- Testimonial -->
+
+			<section class="py-10">
+				<div class="grid grid-cols-3 gap-8">
+					<div class="bg-white border border-slate-300 shadow-galeri py-12 px-7 rounded-lg">
+						<div class="flex justify-center items-center">
+							<div class="w-36 h-36 rounded-full overflow-hidden">
+								<img
+									src="/assets/indonesia.png"
+									alt="profile"
+								/>
+							</div>
+						</div>
+						<p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, illum! Esse, asperiores voluptate.</p>
+						<div>bintang 5 mantap</div>
+						<div>John Doe</div>
+						<div>Customer</div>
+					</div>
+					<div class="bg-white border border-slate-300 shadow-galeri py-12 px-7 rounded-lg">
+						<div class="flex justify-center items-center">
+							<div class="w-36 h-36 rounded-full overflow-hidden">
+								<img
+									src="/assets/indonesia.png"
+									alt="profile"
+								/>
+							</div>
+						</div>
+						<p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, illum! Esse, asperiores voluptate.</p>
+						<div>bintang 5 mantap</div>
+						<div>John Doe</div>
+						<div>Customer</div>
+					</div>
+					<div class="bg-white border border-slate-300 shadow-galeri py-12 px-7 rounded-lg">
+						<div class="flex justify-center items-center">
+							<div class="w-36 h-36 rounded-full overflow-hidden">
+								<img
+									src="/assets/indonesia.png"
+									alt="profile"
+								/>
+							</div>
+						</div>
+						<p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, illum! Esse, asperiores voluptate.</p>
+						<div>bintang 5 mantap</div>
+						<div>John Doe</div>
+						<div>Customer</div>
+					</div>
+				</div>
+			</section>
 		</main>
 		<!-- Footer -->
 		<footer></footer>
